@@ -6,7 +6,8 @@ Bootstraping a Pixi.js project with ES6 features and a complete developpment set
 
 ## Features
 
-Create or edit the scripts in the "/src/" directory. Entry point that will be your project is "/src/index.js". You can use ES6 features like import and stuff.
+Create or edit the scripts in the "/src/" directory. The javascript build that will be your project is in the file "/src/app.js". 
+You can use ES6 features like import and stuff. Don't forget to add /* global PIXI */ when using the PIXI object in your scripts or you will have an ESLint error (See the example "/src/test.js")
 
 Other features:
 - ESLint warnings and errors with Babel and recommended javascript configuration
@@ -14,9 +15,10 @@ Other features:
 - Notifications on warnings and errors
 - BrowserSync
 - Express server that opens automatically on http://localhost:3000/ on launch
-- An example to test the PIXI.js library ans ES6 features
+- The Pixi.js library v4.5.6
+- An example to test the Pixi.js library ans ES6 features
 
-In current state, using the Pixi.js 4.5.6 library, but easy to change and add another version in the "/build/pixi.*/" directory. 
+In current state, using the Pixi.js v4.5.6, but the version is easy to change, add another version or add a distant script to the latest Pixi.js version in the "/build/index.html" file. 
 
 The server is using the "/build/" directory as root directory.
 
