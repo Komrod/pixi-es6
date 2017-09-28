@@ -1,5 +1,5 @@
 {
-  "name": "es6-pixi",
+  "name": "pixi-es6",
   "version": "0.5.0",
   "description": "Bootstraping a Pixi.js project with ES6 features and a complete developpment setup.",
   "main": "build/index.html",
