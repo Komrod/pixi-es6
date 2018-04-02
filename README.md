@@ -1,7 +1,7 @@
 
 # Pixi-es6
 
-Bootstraping a Pixi.js project with ES6 features and a complete developpment setup.
+Bootstrapping a Pixi.js project with ES6 features and a complete development setup.
 
 
 ## Features
@@ -14,7 +14,7 @@ Other features:
 - Notifications on warnings and errors
 - BrowserSync
 - Express server that opens automatically on http://localhost:3000/ on launch
-- An example to test the PIXI.js library ans ES6 features
+- An example to test the PIXI.js library and ES6 features
 
 In current state, using the Pixi.js 4.5.6 library, but easy to change and add another version in the "/build/pixi.*/" directory. 
 
@@ -23,13 +23,13 @@ The server is using the "/build/" directory as root directory.
 
 ## Installation
 
-After cloning the prject:
+After cloning the project:
 
 ```
 npm install
 ```
 
-To start the server in Developpment mode:
+To start the server in development mode:
 ```
 npm start
 ```
